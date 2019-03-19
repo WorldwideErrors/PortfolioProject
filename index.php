@@ -16,20 +16,21 @@ header {
   text-align: center;
   font-size: 25px;
   color: white;
+  
 }
 article {
   float: right;
   padding: 20px;
   width: 49%;
   background-color: #3756;
-  height: 930px; /* only for demonstration, should be removed */
+  height: 900px; /* only for demonstration, should be removed */
 }
 section {
   float: left;
   padding: 20px;
   width: 45%;
   background-color: #3756;
-  height: 930px; /* only for demonstration, should be removed */
+  height: 900px; /* only for demonstration, should be removed */
 }
 body {margin:0;}
 
@@ -84,7 +85,7 @@ li a:hover:not(.active) {
 	<h3>Geboorteplaats: Bergen op Zoom</h3>
 	<h3>E-mailadress: D262581@edu.rocwb.nl</h3>
 	<h3>Rijbewijs: AM, B	
-	<h3>Microsoft kennis: MS Word, MS Access, MS Excel </h3>
+	<h3>Microsoft kennis: MS Word, MS Access, MS Excel, MS PowerPoint </h3>
 	<h3>Programmeertalen: HTML, PHP, CSharp </h3>
 	</blockquote></b>
 	<hr/>
@@ -119,16 +120,11 @@ li a:hover:not(.active) {
 </section>
 <article>
 	<hr/>
-	<h1 style="text-align:center"> <big><i>Achtergrond muziek</i></big></h1>
-	<hr/>
-	<blockquote>
-	</br>
-	<h1 style="text-align:center"> <audio src="imagine2.mp3" controls></audio> </h1>
-	</blockquote>
-	<hr/>
     <br/>
     <h2 style="text-align: center"><?php include 'TipVanDeDag.php' ?> </h2>
     <br/>
+    <hr/>
+    	<img src="https://www.kitzbueheler-alpen.com/media/Zoombilder/skifahrerin-choralpe-skiwelt-stefaneisend-tvb-brixentaldsc2934-1.jpg" width="724" height="583">
     <hr/>
 </article>
 <ul>
