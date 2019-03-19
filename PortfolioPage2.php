@@ -3,6 +3,7 @@
 <head>
 	<title>Contactpagina en Over mij</title>
 	<style>
+	
 	hr {
 border: 1px solid #204b367d;
 }
@@ -103,9 +104,7 @@ input[type=submit]:hover {
     <h3>Of via het contactformulier hieronder!</h3>
 	<h1 style="text-align:center;"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-contact-512.png" width="300" height="300"></h1></b>
     <form Method="POST">
-        <hr/>
         <h1 style="text-align:center;"> <big><i>Contactformulier</i></big></h1>
-        <hr/>
         <table>
 			<tr>
 			<td>Naam: 					</td>
@@ -130,23 +129,24 @@ input[type=submit]:hover {
 	<hr/>
 	<h1 style="text-align:center;"><big><i>Over mij</i></big></h1>
 	<hr/>
-	<h3 style="text-align:center;">
-	Mijn naam is Jeffrey en ik ben 18 jaar oud. Ik heb 2 katten en 1 hond. Ik luister graag naar muziek en onderhoud ook graag </br>
-	mijn contact met online vrienden. Ik woon in Bergen op Zoom. Ik heb mijn middelbare school afgerond op VMBO-Tl niveau en volg </br>
+	<h3 style="text-align:left;">
+	Mijn naam is Jeffrey en ik ben 18 jaar oud. Ik heb 2 katten en 1 hond. Ik luister graag naar muziek en onderhoud ook graag
+	mijn contact met online vrienden. Ik woon in Bergen op Zoom. Ik heb mijn middelbare school afgerond op VMBO-Tl niveau en volg
 	op dit moment de opleiding Applicatie- Media ontwikkelaar niveau 4 op het Zoomvliet College in Roosendaal. </br>
 	</br>
-	Ik heb deze opleiding gekozen, omdat ik wist dat er veel werk in te vinden was en ik vanaf jong af aan al bezig was met de computer.</br>
+	Ik heb deze opleiding gekozen, omdat ik wist dat er veel werk in te vinden was en ik vanaf jong af aan al bezig was met de computer.
 	Ik zat toen echter nog niet in het programmeervak, maar ik had er dus altijd al mijn interesses in. </br>
-	Voor mij is het internet ook erg belangrijk, omdat ik er veel mensen heb leren kennen en daardoor ook veel vrienden heb gemaakt. </br>
+	Voor mij is het internet ook erg belangrijk, omdat ik er veel mensen heb leren kennen en daardoor ook veel vrienden heb gemaakt.</br>
 	</br>
-	Ik heb erg veel geleerd op de opleiding Applicatie- Media ontwikkelaar, want natuurlijk gaat niet altijd alles goed. Je moet niet </br>
-	opgeven in wat je doet. Als je doorzet kan je verder groeien en zo je doelen bereiken. Niet iedere applicatie zet je zonder problemen </br>
+	Ik heb erg veel geleerd op de opleiding Applicatie- Media ontwikkelaar, want natuurlijk gaat niet altijd alles goed. Je moet niet
+	opgeven in wat je doet. Als je doorzet kan je verder groeien en zo je doelen bereiken. Niet iedere applicatie zet je zonder problemen 
 	in elkaar. Je moet er tijd in steken en zo moet je zorgen dat jij de applicatie bouwt waar de klant naar vraagt. </br>
 	</h3>
-	<img> src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/51989080_1993015534129151_3868869032287404032_n.jpg?_nc_cat=101&_nc_ht=scontent-amt2-1.xx&oh=97b44f67e439a354bdf74de6c057dbae&oe=5CE10E9A" width="400" height="410">
+	<h1 style="text-align:center;">
+	<img {border:3px solid #204b367d;} src="https://ton.twitter.com/i/ton/data/dm/1107982352624562181/1107982345204912129/aBw7fsLJ.jpg" width="260" height="420"></h1>
 </section>	
 <ul>
-	<li><a href="/PortfolioPage1.php">Curriculum Vitae</a></li>
+	<li><a href="/index.php">Curriculum Vitae</a></li>
 	<li><a class="active" href="/PortfolioPage2.php">Contact</a></li>
 	<li><a href="/PortfolioPage3.php">Projecten</a></li>
 	<li>
@@ -180,13 +180,13 @@ if(isset($_POST["btnSave"]))
         $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
         $mail->Username = 'Mail@Example.com';                 // SMTP username
-        $mail->Password = 'ExamplePassword';                           // SMTP password
+        $mail->Password = 'ExamplePassword';                  // SMTP password
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 587;                                    // TCP port to connect to
 
         //Recipients
-        $mail->setFrom('contact.jeffreyvantillo@gmail.com', 'Jeffrey');
-        $mail->addAddress('contact.jeffreyvantillo@gmail.com', 'Jeffrey');     // Add a recipient
+        $mail->setFrom('Mail@Example.com', 'Jeffrey');
+        $mail->addAddress('Mail@Example.com', 'Jeffrey');     // Add a recipient
 
         //Content
         $mail->isHTML(true);                                  // Set email format to HTML
