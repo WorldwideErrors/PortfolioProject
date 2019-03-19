@@ -22,14 +22,14 @@ article {
   padding: 20px;
   width: 34%;
   background-color: #3756;
-  height: 930px; /* only for demonstration, should be removed */
+  height: 960px; /* only for demonstration, should be removed */
 }
 section {
   float: left;
   padding: 20px;
   width: 60%;
   background-color: #3756;
-  height: 930px; /* only for demonstration, should be removed */
+  height: 960px; /* only for demonstration, should be removed */
 }
 body {margin:0;}
 
@@ -75,7 +75,6 @@ li a:hover:not(.active) {
 </header>
 <section>
     <h1> Vakantiepark huisjesverhuur</h1>
-    <hr/>
 	<h3> <?php include 'QueryPortfolio.php'?></h3>
     <hr/>
 
@@ -84,10 +83,12 @@ li a:hover:not(.active) {
     <h1> Mijn huidige projecten:</h1>
     <h4>- <a href="https://github.com/WorldwideErrors/Vakantiepark_HolidayForFun"> Vakantiepark - Holiday for Fun</a></h4>
     <h4>- <a href="https://github.com/WorldwideErrors/Rekenspel_DeRekenKoning">Rekenspel - De Reken Koning</a></h4>
-    <h4>- <a href="https://github.com/WorldwideErrors/KassaApplicatie_BlackTulipRetail">Kassa Applicatie - Black Tulip Retail</a></h4>
+    <h4>- <a href="https://github.com/WorldwideErrors/KassaApplicatie_BlackTulipRetail">Kassa Applicatie - Black Tulip
+             Retail</a></h4>
+    <h4>- <a href="https://github.com/WorldwideErrors/PortfolioProject">Portfolio Website</a></h4>
 </article>
 <ul>
-	<li><a href="/PortfolioPage1.php">Curriculum Vitae</a></li>
+	<li><a href="/index.php">Curriculum Vitae</a></li>
 	<li><a href="/PortfolioPage2.php">Contact</a></li>
 	<li><a class="active" href="/PortfolioPage3.php">Projecten</a></li>
 	<li>
@@ -101,7 +102,3 @@ li a:hover:not(.active) {
 	</ul>
 </body>
 </html>
-<?php
-
-
-?>
