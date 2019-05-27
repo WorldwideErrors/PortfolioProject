@@ -77,16 +77,16 @@ li a:hover:not(.active) {
 	<hr/>
 	<blockquote>
 	<h1> <b>Persoonsgegevens:</b></h1>
-	<h3>Naam: Jeffrey van Tillo </h3>
-	<h3>Adres: Beukstraat 42</h3>
-	<h3>Woonplaats: Bergen op Zoom</h3>
-	<h3>Telefoon: 0683772584</h3>
-	<h3>Geboortedatum: 14-03-2001</h3>
-	<h3>Geboorteplaats: Bergen op Zoom</h3>
-	<h3>E-mailadress: D262581@edu.rocwb.nl</h3>
-	<h3>Rijbewijs: AM, B	
-	<h3>Microsoft kennis: MS Word, MS Access, MS Excel, MS PowerPoint </h3>
-	<h3>Programmeertalen: HTML, PHP, CSharp </h3>
+	<h3>Naam: --- </h3>
+	<h3>Adres: ---</h3>
+	<h3>Woonplaats: ---</h3>
+	<h3>Telefoon: ---</h3>
+	<h3>Geboortedatum: ---</h3>
+	<h3>Geboorteplaats: ---</h3>
+	<h3>E-mailadress: ---</h3>
+	<h3>Rijbewijs: ---	
+	<h3>Microsoft kennis: --- </h3>
+	<h3>Programmeertalen: --- </h3>
 	</blockquote></b>
 	<hr/>
 	<blockquote>
